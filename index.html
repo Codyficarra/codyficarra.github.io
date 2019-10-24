@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Practice Website</title>
     <link rel="stylesheet" href="CSS/screen.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
 </head>
 
 <body>
@@ -58,17 +60,25 @@
                         important steps: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veniam dolore impedit, nisi qui quis, molestiae voluptatibus, cum expedita architecto ipsam iste est perspiciatis temporibus libero animi doloribus nihil dolores!
                 </p>
 
-                <img src="images/bird.jpg" alt="Yo look at this bird">
+                <div class="cycle-slideshow"  data-cycle-pause-on-hover="true">
+               
+                    <span class="cycle-prev">&laquo;</span>
+                    <span class="cycle-next">&raquo;</span>
+                    <span class="cycle-pager"></span>
 
-                <p>Ok so to ski properly you must use these very 
-                        important steps: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel unde quidem dolores ipsum, quis beatae veritatis veniam libero, quam aliquid consectetur non eaque id qui vitae harum quia recusandae nihil?
-                </p>
+                    <div class="slide"></div>
+                        <img src="images/bird.jpg" alt="Yo look at this bird">
+                        <img src="images/bee.jpg" alt="Yo this bee is amazing">
+                        <img src="images/squirrel.jpg" alt="OOOH SQUIRREL">
+                    </div>
+                </div>
+
 
 
             </div>
 
             <aside class="sidebar">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga adipisci dicta ea, ullam nihil voluptates recusandae ducimus a temporibus voluptatum iste eligendi consequuntur itaque asperiores ipsam hic! Ipsa, praesentium?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga adipisci dicta ea, ullam nihil voluptates recusandae ducimus a temporibus voluptatum iste eligendi consequuntur itaque asperiores ipsam hic! Ipsa, praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequatur nemo quam iusto laboriosam eaque doloribus autem illo, eius officiis ea ab, reiciendis repellat rem illum! Dolorem, voluptatum! Quaerat, temporibus?</p>
             </aside>
         </div>
 
